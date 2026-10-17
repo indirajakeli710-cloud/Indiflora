@@ -58,8 +58,13 @@ button {
 <main>
 <h2>კეთილი იყოს შენი მობრძანება!</h2>
 <p>მცენარეებისა და მებაღეობის ახალი სამყარო.</p>
-<button>შემოგვიერთდი</button>
-</main>
+<button onclick="document.getElementById('registration').hidden=false">შემოგვიერთდი</button>
+<div id="registration" hidden style="padding:20px">
+<h2>რეგისტრაცია INDIFLORA-ზე</h2>
+<input placeholder="სახელი">
+<input type="email" placeholder="ელფოსტა">
+<button type="button" onclick="alert('ეს ჯერ საცდელი ფორმაა')">რეგისტრაცია</button>
+</div></main>
 
 </body>
 </html>
